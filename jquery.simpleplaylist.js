@@ -77,7 +77,7 @@
       button.click(function() {
         if (audio.paused) {
           if ($('.playing').length) {
-            playing = $('.playing').parent().parent().find('audio').get(0);
+            playing = $('.playing').parents('li').find('audio').get(0);
             stopAudio(playing);
           }
           audio.play();
