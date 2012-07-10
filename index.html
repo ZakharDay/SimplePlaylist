@@ -15,80 +15,82 @@
 </head>
 <body>
   
-    <h1>Simple HTML5 Audio Playlist Demo</h1>
-    
-    <ul class="playlist">
-      <li>
-        <div class="track">
-          <span class="controls" id="playToggle"></span>
-          <span class="title">Flu Gi — Mum</span>
-          <span class="minus">-</span>
-          <span id="timeleft">3:17</span>
-        </div>
-        <audio>
-          <source src="audio/mum.mp3" type="audio/mp3" />
-          <source src="audio/mum.ogg" type="audio/ogg" />
-          Your browser does not support the <code>audio</code> element.
-        </audio>
-      </li>
-      <li>
-        <div class="track">
-          <span class="controls" id="playToggle"></span>
-          <span class="title">Flu Gi — Speed</span>
-          <span class="minus">-</span>
-          <span id="timeleft">2:35</span>
-        </div>
-        <audio>
-          <source src="audio/speed.mp3" type="audio/mp3" />
-          <source src="audio/speed.ogg" type="audio/ogg" />
-          Your browser does not support the <code>audio</code> element.
-        </audio>
-      </li>
-      <li>
-        <div class="track">
-          <span class="controls" id="playToggle"></span>
-          <span class="title">Flu Gi — TOP90 (radio)</span>
-          <span class="minus">-</span>
-          <span id="timeleft">2:50</span>
-        </div>
-        <audio>
-          <source src="audio/top90(radio).mp3" type="audio/mp3" />
-          <source src="audio/top90(radio).ogg" type="audio/ogg" />
-          Your browser does not support the <code>audio</code> element.
-        </audio>
-      </li>
-    </ul>
-    
-    <h3>Usage:</h3>
-    
-    <p>At first you need include jQuery 1.4.0 or latest, <i>jquery.simpleplaylist.js</i> and <i>simpleplaylist.css</i>.</p>
-    
-    <p>Then initialize the player after document loaded, e.g.:<br />
-      <code>
-        <pre>
-          $(document).ready(function() {
-            $('.playlist').playlist();
-          });
-        </pre>
-      </code>
-    </p>
-    
-    <h3>Style:</h3>
-    
-    <p>You can easly use CSS to style up this simple player by change of simpleplaylist.css or define it in your CSS files.</p>
-    
-    <h3>Credits:</h3>
-    
-    <p>
-      This is a fork from <a target="_blank" href="http://github.com/yuanhao/Simple-Player">Yuanhao Li's Simple Player</a>
-      with some math from <a target="_blank" href="http://neutroncreations.com/blog/building-a-custom-html5-audio-player-with-jquery/">Neutron Creations</a> blogpost.
-    </p>
-    
-    <p>
-      <a target="_blank" href="http://twitter.com/ZakharDay">Tweet me</a> if you like this simple playlist.
-      <br />
-      View project on <a target="_blank" href="http://github.com/ZakharDay/SimplePlaylist">GitHub</a>.
-    </p>
+  <a href="https://github.com/ZakharDay/SimplePlaylist"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+  
+  <h1>Simple HTML5 Audio Playlist Demo</h1>
+  
+  <ul class="playlist">
+    <li>
+      <div class="track">
+        <span class="controls" id="playToggle"></span>
+        <span class="title">Flu Gi — Mum</span>
+        <span class="minus">-</span>
+        <span id="timeleft">3:17</span>
+      </div>
+      <audio>
+        <source src="audio/mum.mp3" type="audio/mp3" />
+        <source src="audio/mum.ogg" type="audio/ogg" />
+        Your browser does not support the <code>audio</code> element.
+      </audio>
+    </li>
+    <li>
+      <div class="track">
+        <span class="controls" id="playToggle"></span>
+        <span class="title">Flu Gi — Speed</span>
+        <span class="minus">-</span>
+        <span id="timeleft">2:35</span>
+      </div>
+      <audio>
+        <source src="audio/speed.mp3" type="audio/mp3" />
+        <source src="audio/speed.ogg" type="audio/ogg" />
+        Your browser does not support the <code>audio</code> element.
+      </audio>
+    </li>
+    <li>
+      <div class="track">
+        <span class="controls" id="playToggle"></span>
+        <span class="title">Flu Gi — TOP90 (radio)</span>
+        <span class="minus">-</span>
+        <span id="timeleft">2:50</span>
+      </div>
+      <audio>
+        <source src="audio/top90(radio).mp3" type="audio/mp3" />
+        <source src="audio/top90(radio).ogg" type="audio/ogg" />
+        Your browser does not support the <code>audio</code> element.
+      </audio>
+    </li>
+  </ul>
+  
+  <h3>Usage:</h3>
+  
+  <p>At first you need include jQuery 1.4.0 or latest, <i>jquery.simpleplaylist.js</i> and <i>simpleplaylist.css</i>.</p>
+  
+  <p>Then initialize the player after document loaded, e.g.:<br />
+    <code>
+      <pre>
+        $(document).ready(function() {
+          $('.playlist').playlist();
+        });
+      </pre>
+    </code>
+  </p>
+  
+  <h3>Style:</h3>
+  
+  <p>You can easly use CSS to style up this simple player by change of simpleplaylist.css or define it in your CSS files.</p>
+  
+  <h3>Credits:</h3>
+  
+  <p>
+    This is a fork from <a target="_blank" href="http://github.com/yuanhao/Simple-Player">Yuanhao Li's Simple Player</a>
+    with some math from <a target="_blank" href="http://neutroncreations.com/blog/building-a-custom-html5-audio-player-with-jquery/">Neutron Creations</a> blogpost.
+  </p>
+  
+  <p>
+    <a target="_blank" href="http://twitter.com/ZakharDay">Tweet me</a> if you like this simple playlist.
+    <br />
+    View project on <a target="_blank" href="http://github.com/ZakharDay/SimplePlaylist">GitHub</a>.
+  </p>
     
 </body>
 </html>
