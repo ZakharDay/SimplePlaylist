@@ -36,6 +36,10 @@ span.playing {
   background-image: url('images/stop.png') !important;
 }
 
+span.playing:hover {
+  background-image: url('images/stoped.png') !important;
+}
+
 span.title {
   display: inline-block;
   width: 245px;
