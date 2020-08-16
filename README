@@ -1,25 +1,25 @@
-Simple HTML5 Audio Playlist Demo
+# Simple HTML5 Audio Playlist Demo
 
-Usage:
+## Usage
 
-At first you need include jQuery 1.4.0 or latest, jquery.simpleplaylist.js and simpleplaylist.css.
+At first you need to include jQuery 1.4.0 or latest, jquery.simpleplaylist.js and simpleplaylist.css.
 
 Then initialize the player after document loaded, e.g.:
 
-  $(document).ready(function() {
-    $('.playlist').playlist();
-  });
+```js
+$(document).ready(function() {
+  $('.playlist').playlist();
+});
+```
 
-Style:
+## Style
 
 You can easly use CSS to style up this simple player by change of simpleplaylist.css or define it in your CSS files.
 
-Credits:
+## Credits
 
 This is a fork from Yuanhao Li's Simple Player
 http://github.com/yuanhao/Simple-Player
 
 With some math from Neutron Creations blogpost
 http://neutroncreations.com/blog/building-a-custom-html5-audio-player-with-jquery/
-
-Let me know if you like this simple playlist. @ZakharDay
